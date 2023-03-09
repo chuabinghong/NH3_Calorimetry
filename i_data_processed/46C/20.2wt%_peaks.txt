@@ -1,0 +1,3 @@
+ Index  Time(s)  Furnace Temperature(K)  Sample Temperature(K)  HeatFlow(mW)  Q_Corrected  Fc  Fc_err
+  7605 134590.8              157.463683             151.813261    121.558149   122.586815 NaN     NaN
+ 10420 184416.3              240.505442             235.218138    -39.076219   -39.836741 NaN     NaN

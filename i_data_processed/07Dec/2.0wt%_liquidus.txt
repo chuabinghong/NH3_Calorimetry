@@ -1,0 +1,8 @@
+Index                      11649.000000
+Time(s)                   206169.600000
+Furnace Temperature(K)       276.753829
+Sample Temperature(K)        271.498755
+HeatFlow(mW)                -266.149066
+Q_Corrected                 -266.662907
+Fc                             0.007824
+Fc_err                         0.000046
