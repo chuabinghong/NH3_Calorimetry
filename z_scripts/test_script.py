@@ -89,7 +89,7 @@ wt = wt_ls[idx]
 m = mass_ls[idx]
 c = colour_ls[idx]
 data = pd.read_csv(
-    rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\z_paper_figures\{wt}wt%_hb_{m}g.csv',
+    rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\z_paper_figures\{wt}wt%_hb_{m}g.csv',
     header=0)
 
 ax[0].stackplot(data['T(K)'], data['c_melt'] / data['j_total'],
@@ -126,7 +126,7 @@ wt = wt_ls[idx]
 m = mass_ls[idx]
 c = colour_ls[idx]
 data = pd.read_csv(
-    rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\z_paper_figures\{wt}wt%_hb_{m}g.csv',
+    rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\z_paper_figures\{wt}wt%_hb_{m}g.csv',
     header=0)
 
 ax[1].stackplot(data['T(K)'], data['c_melt'] / data['j_total'],
@@ -155,7 +155,7 @@ base.splt_axis_label(fig,'Temperature (K)','Heat (Normalized)')
 plt.tight_layout()
 
 # base.show_plot_max()
-saveFig = rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\z_paper_figures\energy_budget.png'
+saveFig = rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\z_paper_figures\energy_budget.png'
 plt.savefig(saveFig)
 plt.close()
 
@@ -170,7 +170,7 @@ wt = wt_ls[idx]
 m = mass_ls[idx]
 c = colour_ls[idx]
 data = pd.read_csv(
-        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
+        rf'C:\1_data\OneDrive - Nanyang Te  chnological University\OFYP\NH3_Calorimetry\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
         header=0)
 plt.plot(data['sampleT(K)'], data['Q_corrected(mW)'], color=c,zorder=10-idx,label=f'{wt} wt%')
 idx = 5
@@ -178,7 +178,7 @@ wt = wt_ls[idx]
 m = mass_ls[idx]
 c = colour_ls[idx]
 data = pd.read_csv(
-        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
+        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
         header=0)
 plt.plot(data['sampleT(K)'], data['Q_corrected(mW)'], color=c,zorder=10-idx,label=f'{wt} wt%')
 
@@ -193,7 +193,7 @@ plt.annotate('Liquidus 20.07 wt%',(235,-48),xytext=(0,-10),textcoords='offset po
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='top',fontsize=4)
 plt.annotate('Liquidus 8.2 wt%',(263,-132),xytext=(0,-10),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='top',fontsize=4)
-plt.annotate('Artefact',(296,-36),xytext=(0,-10),textcoords='offset points',
+plt.annotate('Artifact',(296,-36),xytext=(0,-10),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='top',fontsize=4)
 plt.annotate('Endothermic',(145,-240),xytext=(0,20),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=3,headlength=3,edgecolor=None,linewidth=.5),ha='center',va='bottom',fontsize=4)
@@ -209,10 +209,10 @@ base.splt_axis_label(fig,'Temperature (K)','Heat Flow (mW)')
 
 # plt.tight_layout()
 # base.show_plot_max()
-plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\z_paper_figures\thermogram.png')
+plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\z_paper_figures\thermogram.png')
 ## plot thermogram with liquidus double peak
 
-data = pd.read_csv(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\03Jan\8.4wt%_hf_prepped_4.5858g.csv',header=0)
+data = pd.read_csv(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data_processed\03Jan\8.4wt%_hf_prepped_4.5858g.csv',header=0)
 
 fig = plt.figure()
 plt.subplot(2,1,1)
@@ -225,7 +225,7 @@ for idx, wt in enumerate(wt_ls):
     m = mass_ls[idx]
     c = colour_ls[idx]
     data = pd.read_csv(
-        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
+        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data_processed\03Jan\{wt}wt%_hf_prepped_{m}g.csv',
         header=0)
     plt.plot(data['sampleT(K)'], data['Q_corrected(mW)'], color=c,zorder=10-idx,label=f'{wt} wt%')
     plt.xlim([174,184])
@@ -235,7 +235,7 @@ plt.legend(prop={'size': 5})
 
 # base.show_plot_max()
 base.splt_axis_label(fig,'T (K)','Heat Flow (mW)')
-plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\z_paper_figures\doublepeak.png')
+plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\z_paper_figures\doublepeak.png')
 ##
 m_max = np.zeros([len(wt_ls), 1]); m_max[:] = np.nan
 p_max = np.zeros([len(wt_ls), 1]); p_max[:] = np.nan
@@ -258,7 +258,7 @@ def tanh_eqn(T, a, b, c,d):
     """Shomate Formulation equation for fitting"""
     return a*np.tanh((T+b)*c)+d
 
-data =pd.read_csv(r"C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data\others\liquidus.csv", header=0)
+data =pd.read_csv(r"C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data\others\liquidus.csv", header=0)
 
 out, pcov = curve_fit(tanh_eqn,data['Theoretical'],data['Offset'],p0=[.3,-250,.015,.3])
 
@@ -269,7 +269,7 @@ plt.plot(T,tanh_eqn(T,*out),'k')
 plt.title('tanh fit to phase transition offsets')
 plt.xlabel('Theoretical T of Transition (K)')
 plt.ylabel('Measured T - Theoretical T (K)')
-plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data\others\liquidus.png')
+plt.savefig(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data\others\liquidus.png')
 base.show_plot_max()
 
 ## debug end line

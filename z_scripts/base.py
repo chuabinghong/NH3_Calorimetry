@@ -154,7 +154,7 @@ class DataRaw:
         if self.wt == 'blank':
             self.df['Q_Corrected'] = self.df["HeatFlow(mW)"]
         elif self.wt != 'blank':
-            self.df['Q_Corrected'] = self.df["HeatFlow(mW)"] - df_blank["HeatFlow(mW)"]
+            self.df2['Q_Corrected'] = self.df2["HeatFlow(mW)"] - df_blank["HeatFlow(mW)"]
 
     def correct_HF_smooth(self, df_blank):
         """for smoothed data. Subtract blank from sample data to calibrate."""
@@ -279,7 +279,7 @@ class DataPrep:
         """import hf prepped files"""
         self.df = pd.read_csv(dd + '{}wt%_hf_prepped_{}g.csv'.format(self.wt,self.m), header=0)
 
-    def calib_data(self, ld):
+    def calib_data(self, ld,cd):
         """apply calibration from Ice Cp offset from FS06. Based off HF"""
 
         # import FS06 to get corresponding HF with data
@@ -289,7 +289,7 @@ class DataPrep:
         self.df['FW_Q(mW)'] = -(self.m * 1 * cp / (10 * 60) * 1000)
 
         # import calibration function coefficient
-        dev_coeff = (pd.read_csv(ld + 'calib_coeff.csv', header=None)).to_numpy()
+        dev_coeff = (pd.read_csv(cd + 'calib_coeff.csv', header=None)).to_numpy()
         self.df['calib_factor'] = np.polyval(dev_coeff,self.df['FW_Q(mW)'])
         self.df['Q_corrected(mW)'] = self.df['Q_corrected(mW)'] - self.df['calib_factor']
 
@@ -844,7 +844,7 @@ class DataCP:
                 ax.scatter(df['T(K)'], df['cp(J/gK)'], 5, marker=marker, c=colour, linewidths=0, zorder=15)
             if shomate == 1:
                 Trange = np.linspace(df['T(K)'][0], df['T(K)'].iloc[-1], 500)
-                linestuff = ax.plot(Trange, eqn(Trange, *coeff), ls, linewidth=1, c=colour, zorder=10,alpha=0)
+                linestuff = ax.plot(Trange, eqn(Trange, *coeff), ls, linewidth=1, c=colour, zorder=10,alpha=1)
                 # linestuff = ax.plot(Trange, shomalite_eqn(Trange, *coeff), ls, linewidth=0.75, c=colour, zorder=10)
                 if raw_data == 0 and shom_label ==1:
                     linestuff[0].set_label(f'{self.wt} wt%')

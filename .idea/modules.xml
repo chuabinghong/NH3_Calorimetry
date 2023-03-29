@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CalorimetryAnalysis.iml" filepath="$PROJECT_DIR$/.idea/CalorimetryAnalysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NH3_Calorimetry.iml" filepath="$PROJECT_DIR$/.idea/NH3_Calorimetry.iml" />
     </modules>
   </component>
 </project>
