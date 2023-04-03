@@ -28,11 +28,11 @@ wd = r"../"
 os.chdir(wd)
 
 sd = r"i_data_processed/"
-fd = r"o_heatFlow/"
+fd = r"o_supplementaryPlots/"
 
 ## SCRIPT ARGUMENTS
 peak_arg = 0 #1 if we are getting peaks (for liquidus point identification) (broken in current implementation (29 Mar 23)
-range_arg = 1 #1 if using -196C to 46C
+range_arg = 0 #1 if using -196C to 46C
 ramp_rate = 0.1
 T_bin = 3 #size of T_averaged bin
 

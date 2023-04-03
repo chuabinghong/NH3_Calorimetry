@@ -204,7 +204,7 @@ class DataRaw:
 
     def plot_Q_T(self,fd,plt_err=0,save=0):
         plt.figure()
-        plt.scatter(self.df2['Sample Temperature(K)'],self.df2['Q_Corrected'],0.1)
+        plt.scatter(self.df2['Sample Temperature(K)'],self.df2['Q_Corrected'],1)
         if plt_err==1:
             if self.m==0:
                 err_name = 'std'
@@ -212,13 +212,13 @@ class DataRaw:
                 err_name ='err'
             plt.errorbar(self.df2['Sample Temperature(K)'],self.df2['Q_Corrected'],
                          yerr=(self.df2[err_name]),
-                     linestyle='', ecolor='k', capsize=1, capthick=0.2, elinewidth=0.2)
+                     linestyle='', ecolor='gray', capsize=1, capthick=0.5, elinewidth=0.5,zorder=-1)
         plt.xlabel("Temperature (K)"); plt.ylabel('Heat Flow (mW)')
         plt.title('{} wt% Thermogram'.format(self.wt))
         if self.wt == 'blank':
             plt.ylim([-2,2])
         if save == 1:
-            plt.savefig(fd+'{}wt%_Q-T_{}g.png'.format(self.wt,self.m))
+            plt.savefig(fd+'{}wt%_thermogram_{}g.png'.format(self.wt,self.m))
             plt.close()
         elif save ==0:
             show_plot_max()
@@ -240,7 +240,7 @@ class DataRaw:
          plt.title('{} wt% Crystal Fraction'.format(self.wt))
          plt.ylim([0, 1])
          if save == 1:
-             plt.savefig(fd + '{}wt%_Fc-t_{}g.png'.format(self.wt,self.m))
+             plt.savefig(fd + '{}wt%_crystal_fraction_{}g.png'.format(self.wt,self.m))
              plt.close()
          elif save == 0:
              plt.show()
@@ -544,23 +544,32 @@ class DataPrep:
         elif save == 0:
             show_plot_max()
 
-    def plot_hb(self,fd,od,save=0):
+    def plot_hb(self,fd,od,l_bound,u_bound,save=0):
+
+        l_idx = self.df_hb.iloc[(self.df_hb['T(K)']-l_bound).abs().argsort()[:1]].index.tolist()[0]
+        u_idx = self.df_hb.iloc[(self.df_hb['T(K)']-u_bound).abs().argsort()[:1]].index.tolist()[0]
+        df_hb_c = self.df_hb[l_idx:u_idx+1].copy()
+
+        if self.m == 4.5858 and len(self.df_hb)>1800:
+            df_hb_c = df_hb_c.drop(range(1600,1800))
+
+
         #normal heat budget
         plt.figure()
-        plt.axhline(y=0, color='k')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['j_total'], 'k', label='total')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['c_melt'], 'r', label='melt solid')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['c_heat'], 'm', label='heat solid')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['l_heat'], 'b', label='heat liquid')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['l_mix'], 'g', label='mix')
-        plt.plot(self.df_hb['T(K)'], self.df_hb['j_sum'], 'y--', label='sum')
+        plt.axhline(y=0, color='k',linestyle='--')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['j_total'], 'k', label='total recorded heat')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['c_melt'], 'r', label='melt ice')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['c_heat'], 'm', label='heat ice fraction')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['l_mix'], 'g', label='mix molten ice')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['l_heat'], 'b', label='heat liquid fraction')
+        plt.plot(df_hb_c['T(K)'], df_hb_c['j_sum'], 'y--', label='sum of heat processes')
         # plt.ylim([-1, 2])
         plt.xlabel('Temperature (K)')
         plt.ylabel(r'Energy (J)')
-        plt.title('{} wt% Energy Decomposition'.format(self.wt))
+        plt.title('{} wt% Energy Budget'.format(self.wt))
         plt.legend(fontsize=5)
         if save == 1:
-            saveFig = fd + '{}wt%_cp_E_decomp_{}g.png'.format(self.wt,self.m)
+            saveFig = fd + '{}wt%_energy_budget_{}g.png'.format(self.wt,self.m)
             plt.savefig(saveFig)
             plt.close()
         elif save == 0:
@@ -568,18 +577,18 @@ class DataPrep:
 
         # Stacked heat budget
         plt.figure()
-        plt.stackplot(self.df_hb['T(K)'], self.df_hb['c_melt'] / self.df_hb['j_total'],
-                      self.df_hb['c_heat'] / self.df_hb['j_total'],
-                      self.df_hb['l_heat'] / self.df_hb['j_total'],
-                      self.df_hb['l_mix']/self.df_hb['j_total'],
-                      labels=['melt ice', 'heat ice', 'heat liquid', 'mixing'])
+        plt.stackplot(df_hb_c['T(K)'], df_hb_c['c_melt'] / df_hb_c['j_total'],
+                      df_hb_c['c_heat'] / df_hb_c['j_total'],
+                      df_hb_c['l_mix'] / df_hb_c['j_total'],
+                      df_hb_c['l_heat'] / df_hb_c['j_total'],
+                      labels=['melt ice', 'heat ice fraction', 'mix molten ice', 'heat liquid fraction'])
         plt.xlabel('T (K)')
         # plt.ylim([0, 1])
-        plt.title('{} wt% Energy Decomposition (Normalized)'.format(self.wt))
+        plt.title('{} wt% Energy Budget (Normalized)'.format(self.wt))
         plt.legend(fontsize=5, frameon=1, loc='lower right')
         if save == 1:
-            saveFig = fd + '{}wt%_cp_E_decomp_norm_{}g.png'.format(self.wt,self.m)
-            self.df_hb.to_csv(od +'{}wt%_hb_{}g.csv'.format(self.wt, self.m),index=False)
+            saveFig = fd + '{}wt%_cp_energy_budget_normalized_{}g.png'.format(self.wt,self.m)
+            df_hb_c.to_csv(od +'{}wt%_hb_{}g.csv'.format(self.wt, self.m),index=False)
             plt.savefig(saveFig)
             plt.close()
         elif save == 0:
@@ -588,16 +597,19 @@ class DataPrep:
     def cut_cp(self,df,l_bound,u_bound,od,fd,plt_err=1,test=1):
 
         def plot_fx(plt_err):
+            plt.scatter(df['T(K)'], df['cp(J/gK)'], 1, label = 'Cut')
+            plt.scatter(df_c['T(K)'], df_c['cp(J/gK)'], 1, label = 'Kept')
             if plt_err == 1:
                 plt.errorbar(df_c['T(K)'], df_c['cp(J/gK)'], yerr=(df_c['cp_err(%)']/100*df_c['cp(J/gK)']),
-                             linestyle='', ecolor='k', capsize=1, capthick=0.2, elinewidth=0.2)
-            plt.scatter(df['T(K)'], df['cp(J/gK)'], 0.1, label = 'Cut')
-            plt.scatter(df_c['T(K)'], df_c['cp(J/gK)'], 0.1, label = 'Kept')
+                             linestyle='', ecolor='gray', capsize=1, capthick=0.5, elinewidth=0.5,zorder=-1)
 
             plt.xlabel('Temperature (K)')
             plt.ylabel(r'Specific Heat (J $g^{-1}$ $K^{-1}$)')
-            plt.ylim([2.5, 4.5])
-            plt.ylim([3.5, 5.5])
+            if df.equals(self.df_cp_p):
+                plt.ylim([3.4, 4.5])
+            elif df.equals(self.df_cp_m):
+                plt.ylim([2.4, 4.3])
+            # plt.ylim([])
 
         l_idx = df.iloc[(df['T(K)']-l_bound).abs().argsort()[:1]].index.tolist()[0]
         u_idx = df.iloc[(df['T(K)']-u_bound).abs().argsort()[:1]].index.tolist()[0]
@@ -623,18 +635,18 @@ class DataPrep:
             print('ye')
         else:
             if df['X'].iloc[0]*100 < self.wt + 0.01:
-                cp_type = 'pure'
+                cp_type = 'liquid_phase'
             else:
-                cp_type = 'melt'
+                cp_type = 'along_liquidus'
             plt.figure()
             plot_fx(plt_err)
-            plt.title('{} wt% data cut'.format(self.wt))
-            plt.legend(markerscale=5)
+            plt.title('{} wt% Specific Heat'.format(self.wt))
+            plt.legend()
 
-            plt.savefig(fd +'{}wt%_cp_cut_{}_{}g.png'.format(self.wt, cp_type,self.m))
+            plt.savefig(fd +'{}wt%_cp_{}_{}g.png'.format(self.wt, cp_type,self.m))
             plt.close()
 
-            df_c.to_csv(od +'{}wt%_cp_cut_{}_{}g.csv'.format(self.wt, cp_type,self.m),index=False)
+            df_c.to_csv(od +'{}wt%_cp_{}_{}g.csv'.format(self.wt, cp_type,self.m),index=False)
 
     def cut_savgol(self,df,l_bound,od,fd,plot=0):
         """Use savgol filter to smoothen thermogram. Then, calculate derivative of filtered data, and apply another

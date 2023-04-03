@@ -255,7 +255,7 @@ print('ye')
 ##
 
 def tanh_eqn(T, a, b, c,d):
-    """Shomate Formulation equation for fitting"""
+    """tanh equation for fitting"""
     return a*np.tanh((T+b)*c)+d
 
 data =pd.read_csv(r"C:\1_data\OneDrive - Nanyang Technological University\OFYP\NH3_Calorimetry\i_data\others\liquidus.csv", header=0)

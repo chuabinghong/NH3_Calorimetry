@@ -90,7 +90,7 @@ c = colour_ls[idx]
 data = pd.read_csv(dd+
         rf'{wt}wt%_hf_prepped_{m}g_not_smoothed.csv',
         header=0)
-plt.plot(data['sampleT(K)'], data['Q_corrected(mW)'], color=c,zorder=10-idx,label=f'{wt} wt%')
+plt.plot(data['sampleT(K)'], data['Q_corrected(mW)'], color=c,zorder=10-idx,label=f'20.1 wt%')
 
 
 plt.annotate('Glass',(151.5,-20),xytext=(0,-10),textcoords='offset points',
@@ -99,7 +99,7 @@ plt.annotate('AMH',(171,0),xytext=(0,10),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='bottom',fontsize=4)
 plt.annotate('ADH',(177.5,0),xytext=(0,20),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='bottom',fontsize=4)
-plt.annotate('Liquidus 20.07 wt%',(235,-48),xytext=(0,-10),textcoords='offset points',
+plt.annotate('Liquidus 20.1 wt%',(235,-48),xytext=(0,-10),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='top',fontsize=4)
 plt.annotate('Liquidus 8.2 wt%',(263,-132),xytext=(0,-10),textcoords='offset points',
              arrowprops = dict(facecolor ='k',width=.5,headwidth=2,headlength=2,edgecolor=None,linewidth=.5),ha='center',va='top',fontsize=4)

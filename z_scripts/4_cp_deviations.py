@@ -106,6 +106,11 @@ plt.xlabel('Temperature (K)')
 for idx,wt in enumerate(wt_ls):
     # idx=6
     # wt=26.912
+    wt_str = wt
+    if wt == 20.07:
+        wt_str = 20.1
+    elif wt == 26.912:
+        wt_str = 26.9
 
     colour = colour_ls[idx]
     m = mass_ls[idx]
@@ -113,9 +118,9 @@ for idx,wt in enumerate(wt_ls):
     data.import_data(dd, mean=0)
     dev = calc_dev(data.df_p['T(K)'], data.df_p['X'], data.df_p['cp(J/gK)']*1000)
     plt.sca(ax[0])
-    plt.scatter([float(wt)] * len(dev), dev, 3,marker='o', facecolors=colour,edgecolors='None',linewidths=.5,label=f'{wt} wt%',zorder=20)
+    plt.scatter([float(wt)] * len(dev), dev, 3,marker='o', facecolors=colour,edgecolors='None',linewidths=.5,label=f'{wt_str} wt%',zorder=20)
     plt.sca(ax[1])
-    plt.scatter(data.df_p['T(K)'], dev, 3,marker='o', facecolors=colour,edgecolors='None',linewidths=.5,label=f'{wt} wt%',zorder=20)
+    plt.scatter(data.df_p['T(K)'], dev, 3,marker='o', facecolors=colour,edgecolors='None',linewidths=.5,label=f'{wt_str} wt%',zorder=20)
 
 ax[0].scatter(0,250,alpha=0)
 ax[1].scatter(0,250,alpha=0)
@@ -171,7 +176,12 @@ fig.add_subplot(111, frameon=False)
 plt.tick_params(labelcolor='none', which='both', top=False, bottom=False, left=False, right=False)
 
 for idx,wt in enumerate(wt_ls):
-    plt.scatter(1,1, 3,marker='o', facecolors=colour_ls[idx], edgecolors='None', linewidths=.5,label=f'{wt} wt%',alpha=0)
+    wt_str = wt
+    if wt == 20.07:
+        wt_str = 20.1
+    elif wt == 26.912:
+        wt_str = 26.9
+    plt.scatter(1,1, 3,marker='o', facecolors=colour_ls[idx], edgecolors='None', linewidths=.5,label=f'{wt_str} wt%',alpha=0)
 plt.scatter(0,250,alpha=0)
 plt.scatter(1,1,marker='s', edgecolors='k', linewidths=.5,label='CG64', alpha=0)
 plt.scatter(1,1,marker='d', edgecolors='k', linewidths=.5,label='HG53', alpha=0)

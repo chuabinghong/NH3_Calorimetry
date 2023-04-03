@@ -66,6 +66,7 @@ def overall_fun(axis,pure,lit,water,inset,melt,best_fit,comp,data_arg,conc):
         for idx, wt in enumerate(wt_ls):
             # idx = 1 #TODO for single data debugging
             # wt = wt_ls[idx] #TODO for single data debugging
+
             colour = colour_ls[idx]
             marker = marker_ls[idx]
             m = mass_ls[idx]
@@ -311,7 +312,12 @@ def label_one(layout):
 
     # legend
     for i, wt in enumerate(wt_ls):
-        plt.scatter(240, 4, 5,marker=marker_ls[i], c=colour_ls[i], linewidths=0, alpha=0, label=f'{wt} wt%')
+        wt_str = wt
+        if wt == 20.07:
+            wt_str = 20.1
+        elif wt == 26.912:
+            wt_str = 26.9
+        plt.scatter(240, 4, 5,marker=marker_ls[i], c=colour_ls[i], linewidths=0, alpha=0, label=f'{wt_str} wt%')
     plt.plot(250, 4, linewidth=1, c=colour_ls[0], label='Shomate Fit')
     plt.plot(250, 4, linewidth=1, c='k', linestyle=(0, (5, 1)), label='0 wt% IAPWS-95')
     plt.plot(250, 4, linewidth=1, c='gray', linestyle=(0, (5, 1)), label='0 wt% B19')
@@ -347,7 +353,12 @@ def label_one(layout):
 def label_two():
     plt.ylabel('Specific Heat (J $g^{-1}$ $K^{-1}$)')
     for i, wt in enumerate(wt_ls):
-        plt.scatter(240, 4, marker=marker_ls[i], c=colour_ls[i], linewidths=0, alpha=0, label=f'{wt} wt%')
+        wt_str = wt
+        if wt == 20.07:
+            wt_str = 20.1
+        elif wt == 26.912:
+            wt_str = 26.9
+        plt.scatter(240, 4, marker=marker_ls[i], c=colour_ls[i], linewidths=0, alpha=0, label=f'{wt_str} wt%')
     plt.plot(250, 4, linewidth=1, c=colour_ls[0], label='Quadratic Fit')
     plt.plot(250, 4, "--", linewidth=.5, color='gray', label='Prediction Limit')
 
@@ -397,7 +408,12 @@ overall_fun(ax,1,0,1,0,1,2,0,0,0,)
 plt.xlabel("Temperature (K)")
 plt.ylabel('Specific Heat (J $g^{-1}$ $K^{-1}$)')
 for i, wt in enumerate(wt_ls):
-    plt.plot(240, 4, linewidth=1, c=colour_ls[i],alpha=0, label=f'{wt} wt%')
+    wt_str = wt
+    if wt == 20.07:
+        wt_str = 20.1
+    elif wt == 26.912:
+        wt_str = 26.9
+    plt.plot(240, 4, linewidth=1, c=colour_ls[i],alpha=0, label=f'{wt_str} wt%')
 
 plt.plot(250, 4, "--", linewidth=.5, color='gray', label='Prediction Limit')
 

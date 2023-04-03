@@ -87,7 +87,7 @@ ax[1].text(0.72, 0.487, 'mix molten ice', fontsize=4, horizontalalignment='cente
      verticalalignment='bottom', transform=ax[1].transAxes)
 ax[1].arrow(216,0.485,0,-.05,head_width=.5,head_length=.005,linewidth=.5)
 
-ax[1].text(0.05, 0.94, '20.07 wt%', fontsize=4, horizontalalignment='left',
+ax[1].text(0.05, 0.94, '20.1 wt%', fontsize=4, horizontalalignment='left',
      verticalalignment='center', transform=ax[1].transAxes,bbox=dict(boxstyle='square', facecolor='white', alpha=1,linewidth=0.5))
 
 

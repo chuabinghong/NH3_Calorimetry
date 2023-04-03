@@ -31,10 +31,11 @@ cd = r"i_data/calibration_ice/"
 dd = r"i_data_processed/"
 od = r"i_data_processed/"
 fd = r"o_specificHeat/"
+suppd = r"o_supplementaryPlots/"
 
 ## SCRIPT ARGUMENTS
 ice_arg = 0 # 1 if using ice cp from our own 0wt% experiments
-range_arg = 1 #1 if using -196C to 46C
+range_arg = 0 #1 if using -196C to 46C
 calib_arg = 3 #1 if applying linear calibration offset, 2 if constant offset, 3 if HF linear offset
 
 ramp_rate = 0.1
@@ -129,12 +130,12 @@ for idx, wt in enumerate(wt_ls):
     # plot Cp plots
     # data.plot_cp('cp',data.df_cp_m,data.df_cp_p,fd,save=1,ylim=[2,6])
     # data.plot_cp('cp',data.df_cp_m,data.df_cp_p,fd,save=1)
-    data.plot_hb(fd,od,save=1)
+    data.plot_hb(suppd,od,m_lb, m_ub,save=1)
 
     # cut Cp
     # data.cut_savgol(data.df_cp_m,m_lb,od,fd,plot=1)
-    data.cut_cp(data.df_cp_m, m_lb, m_ub, od, fd, plt_err=1, test=0)
-    data.cut_cp(data.df_cp_p, p_lb, p_ub, od, fd, plt_err=1, test=0)
+    data.cut_cp(data.df_cp_m, m_lb, m_ub, od, suppd, plt_err=1, test=0)
+    data.cut_cp(data.df_cp_p, p_lb, p_ub, od, suppd, plt_err=1, test=0)
 
 
     print('Finished for loop {} / {}'.format(idx+1,len(wt_ls)))
