@@ -1,14 +1,17 @@
 # <u>Calorimetry Analysis</u>
-*Repository for analysis code for the calorimetry data of NH3-H2O systems*
+*Repository for analysis specific heat capacity analysis of the calorimetry data of H2O-NH3 systems*
 
-Folders:
-archive_jack			contributions by Jack DIAB
-i_data					.csv files of outputs from the calorimeter (Calisto Program). The first 8 rows are metadata.
-i_data_processed		various files resulting from outputs of processing scripts, and data files from literature.
-o_heatFlow				outputs and plots pertaining to heat flow
-o_specificHeat			outputs and plots pertaining to specific heat
-o_unclassifiedFigures	figures that are recently plotted and have no determined classification yet
-z_meetings				files used in meetings. They serve as periodic summaries of work done
-z_scripts				scripts used.
-
-Note: this is still a work in progress. Scripts, files and folder organization are not final and may not be well documented and accessible. Do contact Bing Hong CHUA at bing.hong.chua@jpl.nasa.gov for assistance.
+Folder Structure:
+- **i_data**: all experimental data
+  - **26C**: data with T range up to 26 C (299.15 K)
+  - **46C**: data with T range up to 26 C (299.15 K)
+  - **calibration_ice**: data for calibration of calorimeter
+- **i_data_literature**: all literature data
+  - **lit_cp**: past NH3-H2O specific heat measurements
+- **i_data_processed**: processed experimental data
+  - **not_smoothed**: data that has not undergone average smoothing (used for plotting)
+- **o_finalPlots**: plots used in the manuscript
+- **o_specificHeat_data**: output specific heat data of H2O-NH3 solutions
+- **o_supplementaryPlots**: plots used in the supplementary information
+- **z_scripts**: all scripts used in analysis
+- **z_unorganized_archive**: folders pre-organization.
