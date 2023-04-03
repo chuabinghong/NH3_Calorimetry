@@ -4,28 +4,6 @@
     <list default="true" id="c9a6eaae-be77-4457-9651-0e6befdb2e0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experimental_parameters.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data/calibration_ice/calib_coeff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data/calibration_ice/calib_coeff.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_along_liquidus_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_along_liquidus_4.5202g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_liquid_phase_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_liquid_phase_4.5202g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_hb_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_hb_4.5202g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_along_liquidus_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_along_liquidus_3.8153g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_liquid_phase_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_liquid_phase_3.8153g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_hb_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_hb_3.8153g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_along_liquidus_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_along_liquidus_3.7107g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_liquid_phase_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_liquid_phase_3.7107g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_hb_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_hb_3.7107g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_along_liquidus_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_along_liquidus_3.7778g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_liquid_phase_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_liquid_phase_3.7778g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_hb_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_hb_3.7778g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_along_liquidus_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_along_liquidus_4.5386g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_liquid_phase_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_liquid_phase_4.5386g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_hb_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_hb_4.5386g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_along_liquidus_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_along_liquidus_4.1943g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_liquid_phase_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_liquid_phase_4.1943g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_hb_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_hb_4.1943g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_along_liquidus_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_along_liquidus_4.5858g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_liquid_phase_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_liquid_phase_4.5858g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_hb_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_hb_4.5858g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/o_finalPlots/calibration.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/calibration.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_liquid.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_partialMelt.png" beforeDir="false" />
@@ -35,17 +13,17 @@
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_crystal_fraction_4.5202g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_energy_budget_4.5202g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_thermogram_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_along_liquidus_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_along_liquidus_3.8153g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_energy_budget_normalized_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_energy_budget_normalized_3.8153g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_liquid_phase_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_liquid_phase_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_along_liquidus_3.8153g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_energy_budget_normalized_3.8153g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_liquid_phase_3.8153g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_crystal_fraction_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_energy_budget_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_energy_budget_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_energy_budget_3.8153g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_thermogram_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_along_liquidus_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_along_liquidus_3.7107g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_energy_budget_normalized_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_energy_budget_normalized_3.7107g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_liquid_phase_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_liquid_phase_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_along_liquidus_3.7107g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_energy_budget_normalized_3.7107g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_liquid_phase_3.7107g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_crystal_fraction_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_energy_budget_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_energy_budget_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_energy_budget_3.7107g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_thermogram_3.7107g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_cp_along_liquidus_3.7778g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_cp_energy_budget_normalized_3.7778g.png" beforeDir="false" />
@@ -53,17 +31,17 @@
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_crystal_fraction_3.7778g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_energy_budget_3.7778g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_thermogram_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_along_liquidus_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_along_liquidus_4.5386g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_energy_budget_normalized_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_energy_budget_normalized_4.5386g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_liquid_phase_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_liquid_phase_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_along_liquidus_4.5386g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_energy_budget_normalized_4.5386g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_liquid_phase_4.5386g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_crystal_fraction_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_energy_budget_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_energy_budget_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_energy_budget_4.5386g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_thermogram_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_along_liquidus_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_along_liquidus_4.1943g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_energy_budget_normalized_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_energy_budget_normalized_4.1943g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_liquid_phase_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_liquid_phase_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_along_liquidus_4.1943g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_energy_budget_normalized_4.1943g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_liquid_phase_4.1943g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_crystal_fraction_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_energy_budget_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_energy_budget_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_energy_budget_4.1943g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_thermogram_4.1943g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_cp_along_liquidus_4.5858g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_cp_energy_budget_normalized_4.5858g.png" beforeDir="false" />
@@ -72,7 +50,6 @@
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_energy_budget_4.5858g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_thermogram_4.5858g.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/z_T_offset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/1_hf_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/1_hf_prep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/1b_hf_calibration.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/1b_hf_calibration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/2_cp_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/2_cp_calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/3_cp_fits.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/3_cp_fits.py" afterDir="false" />
