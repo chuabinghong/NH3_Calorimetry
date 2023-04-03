@@ -11,6 +11,7 @@ Folder Structure:
 - **i_data_processed**: processed experimental data
   - **not_smoothed**: data that has not undergone average smoothing (used for plotting)
 - **o_finalPlots**: plots used in the manuscript
+- **o_specificHeat_data**: output specific heat data of H2O-NH3 solutions
 - **o_supplementaryPlots**: plots used in the supplementary information
 - **z_scripts**: all scripts used in analysis
 - **z_unorganized_archive**: folders pre-organization.
