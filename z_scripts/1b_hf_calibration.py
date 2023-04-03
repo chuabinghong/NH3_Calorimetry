@@ -73,7 +73,7 @@ for yr in df:
 
 
 df_all = pd.concat([df['2014'],df['2015'],df['2022']])
-dev_coeff = np.polyfit(df_all['FW_Q(mW)'],df_all['dev'],1) #POLYNOMIAL
+dev_coeff = np.polyfit(df_all['FW_Q(mW)'],df_all['rel_dev'],1) #POLYNOMIAL
 dev_val = np.polyval(dev_coeff,df_all['FW_Q(mW)'])
 
 
@@ -102,7 +102,8 @@ ax[1].legend(prop={'size':4},bbox_to_anchor=(0.995,.05),loc='lower right')
 
 base.splt_axis_label(fig,'Heat Flow FW06 (mW)','')
 plt.tight_layout()
-# base.show_plot_max()
+base.show_plot_max()
 plt.savefig(fd + 'calibration.png')
 
-np.savetxt(sd + "calib_coeff.csv", dev_coeff, delimiter=",")
+dev_coeff_abs = np.polyfit(df_all['FW_Q(mW)'],df_all['dev'],1) #POLYNOMIAL
+np.savetxt(sd + "calib_coeff.csv", dev_coeff_abs, delimiter=",")

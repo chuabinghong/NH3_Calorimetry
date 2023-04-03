@@ -389,7 +389,7 @@ label_one(layout)
 plt.tight_layout()
 
 # base.show_plot_max()
-plt.savefig(fd + f'cp_liquid.png')
+plt.savefig(fd + f'cp_liquidPhase.png')
 
 ##
 w = 3.3
@@ -397,7 +397,7 @@ fig, ax = plt.subplots(1,1,sharey=True,sharex=True,figsize=(w,w*2/3))
 overall_fun(ax,0,0,0,0,1,2,1,1,0,)
 label_two()
 # base.show_plot_max()
-plt.savefig(fd + 'cp_partialMelt.png')
+plt.savefig(fd + 'cp_alongLiquidus.png')
 
 ##
 

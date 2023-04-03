@@ -35,7 +35,7 @@ suppd = r"o_supplementaryPlots/"
 
 ## SCRIPT ARGUMENTS
 ice_arg = 0 # 1 if using ice cp from our own 0wt% experiments
-range_arg = 0 #1 if using -196C to 46C
+range_arg = 1 #1 if using -196C to 46C
 calib_arg = 3 #1 if applying linear calibration offset, 2 if constant offset, 3 if HF linear offset
 
 ramp_rate = 0.1

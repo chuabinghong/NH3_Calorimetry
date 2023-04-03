@@ -3,73 +3,81 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a6eaae-be77-4457-9651-0e6befdb2e0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimental_params.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experimental_parameters.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data/calibration_ice/calib_coeff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data/calibration_ice/calib_coeff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_along_liquidus_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_along_liquidus_4.5202g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_liquid_phase_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_cp_liquid_phase_4.5202g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/10.0wt%_hb_4.5202g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/10.0wt%_hb_4.5202g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_along_liquidus_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_along_liquidus_3.8153g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_liquid_phase_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_cp_liquid_phase_3.8153g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/14.3wt%_hb_3.8153g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/14.3wt%_hb_3.8153g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_along_liquidus_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_along_liquidus_3.7107g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_liquid_phase_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_cp_liquid_phase_3.7107g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/20.07wt%_hb_3.7107g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/20.07wt%_hb_3.7107g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_along_liquidus_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_along_liquidus_3.7778g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_liquid_phase_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_cp_liquid_phase_3.7778g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/26.912wt%_hb_3.7778g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/26.912wt%_hb_3.7778g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_along_liquidus_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_along_liquidus_4.5386g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_liquid_phase_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_cp_liquid_phase_4.5386g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/5.2wt%_hb_4.5386g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/5.2wt%_hb_4.5386g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_along_liquidus_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_along_liquidus_4.1943g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_liquid_phase_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_cp_liquid_phase_4.1943g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/8.2wt%_hb_4.1943g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.2wt%_hb_4.1943g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_along_liquidus_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_along_liquidus_4.5858g.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_liquid_phase_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_cp_liquid_phase_4.5858g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/i_data_processed/8.4wt%_hb_4.5858g.csv" beforeDir="false" afterPath="$PROJECT_DIR$/i_data_processed/8.4wt%_hb_4.5858g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_all.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/cp_all.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_liquid.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/cp_liquid.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_partialMelt.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/cp_partialMelt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/deviations.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/deviations.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/energy_budget.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/energy_budget.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_finalPlots/thermograms.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/thermograms.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/10.0wt%_Fc-t_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/10.0wt%_Q-T_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/14.3wt%_Fc-t_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/14.3wt%_Q-T_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/20.07wt%_Fc-t_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/20.07wt%_Q-T_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/26.912wt%_Fc-t_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/26.912wt%_Q-T_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/5.2wt%_Fc-t_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/5.2wt%_Fc-t_4.6293g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/5.2wt%_Q-T_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/5.2wt%_Q-T_4.6293g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/8.2wt%_Fc-t_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/8.2wt%_Q-T_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/8.4wt%_Fc-t_4.5858g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/8.4wt%_Q-T_4.5858g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_heatFlow/blankwt%_Q-T_0g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/10.0wt%_cp_E_decomp_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/10.0wt%_cp_E_decomp_norm_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/10.0wt%_cp_cut_melt_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/10.0wt%_cp_cut_pure_4.5202g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/14.3wt%_cp_E_decomp_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/14.3wt%_cp_E_decomp_norm_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/14.3wt%_cp_cut_melt_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/14.3wt%_cp_cut_pure_3.8153g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/20.07wt%_cp_E_decomp_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/20.07wt%_cp_E_decomp_norm_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/20.07wt%_cp_cut_melt_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/20.07wt%_cp_cut_pure_3.7107g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/26.912wt%_cp_E_decomp_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/26.912wt%_cp_E_decomp_norm_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/26.912wt%_cp_cut_melt_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/26.912wt%_cp_cut_pure_3.7778g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/5.2wt%_cp_E_decomp_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/5.2wt%_cp_E_decomp_norm_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/5.2wt%_cp_cut_melt_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/5.2wt%_cp_cut_pure_4.5386g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.2wt%_cp_E_decomp_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.2wt%_cp_E_decomp_norm_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.2wt%_cp_cut_melt_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.2wt%_cp_cut_pure_4.1943g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.4wt%_cp_E_decomp_4.5858g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.4wt%_cp_E_decomp_norm_4.5858g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.4wt%_cp_cut_melt_4.5858g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o_specificHeat/8.4wt%_cp_cut_pure_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_finalPlots/calibration.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_finalPlots/calibration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_liquid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_finalPlots/cp_partialMelt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_cp_along_liquidus_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_cp_energy_budget_normalized_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_cp_liquid_phase_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_crystal_fraction_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_energy_budget_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/10.0wt%_thermogram_4.5202g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_along_liquidus_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_along_liquidus_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_energy_budget_normalized_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_energy_budget_normalized_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_liquid_phase_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_cp_liquid_phase_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_crystal_fraction_3.8153g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_energy_budget_3.8153g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_energy_budget_3.8153g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/14.3wt%_thermogram_3.8153g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_along_liquidus_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_along_liquidus_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_energy_budget_normalized_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_energy_budget_normalized_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_liquid_phase_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_cp_liquid_phase_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_crystal_fraction_3.7107g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_energy_budget_3.7107g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_energy_budget_3.7107g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/20.07wt%_thermogram_3.7107g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_cp_along_liquidus_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_cp_energy_budget_normalized_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_cp_liquid_phase_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_crystal_fraction_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_energy_budget_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/26.912wt%_thermogram_3.7778g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_along_liquidus_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_along_liquidus_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_energy_budget_normalized_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_energy_budget_normalized_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_liquid_phase_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_cp_liquid_phase_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_crystal_fraction_4.5386g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_energy_budget_4.5386g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_energy_budget_4.5386g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/5.2wt%_thermogram_4.5386g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_along_liquidus_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_along_liquidus_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_energy_budget_normalized_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_energy_budget_normalized_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_liquid_phase_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_cp_liquid_phase_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_crystal_fraction_4.1943g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_energy_budget_4.1943g.png" beforeDir="false" afterPath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_energy_budget_4.1943g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.2wt%_thermogram_4.1943g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_cp_along_liquidus_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_cp_energy_budget_normalized_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_cp_liquid_phase_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_crystal_fraction_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_energy_budget_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/8.4wt%_thermogram_4.5858g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/o_supplementaryPlots/z_T_offset.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/1_hf_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/1_hf_prep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_scripts/1b_hf_calibration.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/1b_hf_calibration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/2_cp_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/2_cp_calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/z_scripts/3_cp_fits.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/3_cp_fits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/4_cp_deviations.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/4_cp_deviations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/test_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/test_script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/z_plot_heatBudget.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/z_plot_heatBudget.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z_scripts/z_plot_thermogram_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/z_scripts/z_plot_thermogram_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_scripts/run_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_scripts/test_script.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,70 @@
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/1_data/OneDrive - Nanyang Technological University/OFYP/NH3_Calorimetry/z_scripts/1b_hf_calibration - Copy.py&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.z_supp_TOffset">
+  <component name="RunManager" selected="Python.2_cp_calc">
+    <configuration name="1_hf_prep" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NH3_Calorimetry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/1_hf_prep.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1b_hf_calibration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NH3_Calorimetry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/1b_hf_calibration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2_cp_calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NH3_Calorimetry" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/2_cp_calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3_cp_fits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NH3_Calorimetry" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4_cp_deviations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="t_ice_cp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NH3_Calorimetry" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,74 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_unorganized_archive/z_scripts/calib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/4_cp_deviations.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="z_plot_heatBudget" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NH3_Calorimetry" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/z_plot_heatBudget.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="z_plot_thermogram_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NH3_Calorimetry" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/z_plot_thermogram_example.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="z_supp_TOffset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="NH3_Calorimetry" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/z_scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_scripts/z_supp_TOffset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/z_unorganized_archive/z_scripts/calib/t_ice_cp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.z_supp_TOffset" />
-        <item itemvalue="Python.z_plot_thermogram_example" />
-        <item itemvalue="Python.z_plot_heatBudget" />
-        <item itemvalue="Python.4_cp_deviations" />
+        <item itemvalue="Python.2_cp_calc" />
+        <item itemvalue="Python.1_hf_prep" />
+        <item itemvalue="Python.1b_hf_calibration" />
         <item itemvalue="Python.3_cp_fits" />
+        <item itemvalue="Python.t_ice_cp" />
       </list>
     </recent_temporary>
   </component>
@@ -239,14 +247,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/z_scripts/test_script.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/z_scripts/z_plot_heatBudget.py</url>
           <line>99</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/z_unorganized_archive/z_scripts/calib/t_ice_cp.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/z_unorganized_archive/z_scripts/calib/t_ice_cp.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
