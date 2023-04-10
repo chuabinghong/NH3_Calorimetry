@@ -1,3 +1,0 @@
- Index  Time(s)  Furnace Temperature(K)  Sample Temperature(K)  HeatFlow(mW)  Q_Corrected       Fc
-  6628 117297.9              128.633246             123.224600     -2.714749    -2.020765      NaN
- 11595 205213.8              275.164882             270.043286    -62.003499   -63.008441 0.044922

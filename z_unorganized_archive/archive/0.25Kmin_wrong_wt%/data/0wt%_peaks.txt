@@ -1,2 +1,0 @@
- Index  Time(s)  Furnace Temperature(K)  Sample Temperature(K)  HeatFlow(mW)  Q_Corrected
- 11936 138446.0              293.997813             282.199983   -1050.66939 -1051.764403
