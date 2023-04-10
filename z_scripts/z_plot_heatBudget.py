@@ -9,6 +9,7 @@ import base
 from scipy.optimize import curve_fit
 from scipy.interpolate import RegularGridInterpolator
 
+
 plt.style.use(['science', 'nature', 'no-latex'])
 matplotlib.rcParams['axes.unicode_minus'] = False
 plt.rcParams.update({'figure.dpi': '600'})

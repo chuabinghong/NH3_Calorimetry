@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import numpy as np
 from scipy.optimize import curve_fit
+import base
 
 plt.style.use(['science', 'nature', 'no-latex'])
 matplotlib.rcParams['axes.unicode_minus'] = False
@@ -29,6 +30,10 @@ T = np.arange(100,500)
 plt.scatter(data['Theoretical'],data['Offset'],label='measured T of transition')
 # plt.plot(T,.3*np.tanh((T-250)*.015)+.3)
 plt.plot(T,tanh_eqn(T,*out),'k',label='tanh fit')
+eqn = '$y = %.3ftanh[%.3f(T%.3f)]+%.3f$' % (out[0],out[2],out[1],out[3])
+plt.annotate(eqn,(300,0),ha='left',va='center',fontsize=4)
+
+
 plt.title('tanh fit to phase transition offsets')
 plt.xlabel('Theoretical T of Transition (K)')
 plt.ylabel('Measured T - Theoretical T (K)')

@@ -131,7 +131,7 @@ mass_ls = [4.5386,4.1943,4.5858,4.5202,3.8153,3.7107,3.7778]
 blim = 2.7
 tlim = 5
 xend= 70
-trf = pd.read_csv(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_literature\Baptiste_TRF.csv',header=None)
+trf = pd.read_csv(r'i_data_literature\Baptiste_TRF.csv',header=None)
 trf = trf/1000
 trf[trf<blim] = np.NaN
 trf[trf>tlim] = np.NaN
@@ -147,11 +147,11 @@ for idx, wt in enumerate(wt_ls):
     # wt = wt_ls[idx] #TODO for single data debugging
     m = mass_ls[idx]
     data = pd.read_csv(
-        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\{wt}wt%_cp_cut_melt_{m}g.csv',
+        rf'i_data_processed\{wt}wt%_cp_cut_melt_{m}g.csv',
         header=0)
     # plt.scatter(data['T(K)'],np.repeat(wt,len(data)),2,color='#225ea8',edgecolors='none',marker='o')
     data = pd.read_csv(
-        rf'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed\{wt}wt%_cp_cut_pure_{m}g.csv',
+        rf'i_data_processed\{wt}wt%_cp_cut_pure_{m}g.csv',
         header=0)
     # ax.scatter(data['T(K)'],np.repeat(wt,len(data)),data['cp(J/gK)'],3,color='#225ea8',edgecolors='None', linewidths=.5,marker='o')
     ax.scatter(data['T(K)'],np.repeat(wt,len(data)),data['cp(J/gK)'],s=3,c='#225ea8',edgecolors='None',alpha=1)
@@ -162,7 +162,7 @@ plt.scatter(0,0,4,edgecolors='None', linewidths=.5,marker='o',alpha=0)
 # # PLOT DATA ALONG LIQUIDUS
 # liq_T2 = np.arange(184.5,233.5+.5,.5)
 # xx,yy = lineplot(base.Xl_calc,liq_T2)
-liq = pd.read_csv(r'C:\1_data\OneDrive - Nanyang Technological University\OFYP\CalorimetryAnalysis\i_data_processed/z_liquidus_cp_2.csv',header=0)
+liq = pd.read_csv(r'i_data_processed/z_liquidus_cp_2.csv',header=0)
 ax.plot(liq['T(K)'],liq['massfrac']*100,liq['cp(J/gK)'],color='#225ea8',linewidth=1.2)
 
 # plt.scatter(xx,yy,3,color='#225ea8',edgecolors='None', linewidths=.5,marker='o',zorder=5)
@@ -212,7 +212,7 @@ def rotate(angle):
     ax.view_init(elev=0, azim=angle,roll=0)
 
 # ax.view_init(elev=0, azim=270,roll=0)
-# plt.show()
+plt.show()
 
 angle = 1
 ani = animation.FuncAnimation(fig, rotate, frames=np.arange(0+270, 360+270, angle), interval=50)

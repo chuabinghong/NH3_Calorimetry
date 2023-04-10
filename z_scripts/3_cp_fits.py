@@ -141,7 +141,7 @@ def overall_fun(axis,pure,lit,water,inset,melt,best_fit,comp,data_arg,conc):
             # df_bfcp['cp(J/gK)'] = base.quad_eqn(T_range,*bf_coeff)
             # df_bfcp.to_csv(od + 'z_liquidus_cp_2.csv', index=False)
 
-            if pure_arg==0:
+            if pure_arg==0 and melt_arg==1:
                 # ADD IN CHAN !!!!
                 df_chan = pd.read_csv(ld + 'lit_cp/' + 'chan_1964.csv', header=0)
                 this = df_chan.copy().iloc[0]
@@ -173,7 +173,7 @@ def overall_fun(axis,pure,lit,water,inset,melt,best_fit,comp,data_arg,conc):
             fit, = ax.plot(T_range, base.quad_eqn(T_range, *coef_mean), 'k', linestyle=(0, (5, 1)), linewidth=1,
                            zorder=5, label='overall fit')
 
-        if melt_arg ==1 and pure_arg ==1:
+        if (melt_arg ==1 and pure_arg ==1) or (melt_arg ==0 and pure_arg==0):
             fit.set_label('$C_p$ along liquidus')
 
             # ADD IN CHAN !!!!
@@ -275,7 +275,7 @@ def overall_fun(axis,pure,lit,water,inset,melt,best_fit,comp,data_arg,conc):
         if lit_arg ==1:
             figname = figname + '_lit'
         plt.ylim([3.4, 4.53])
-        plt.xlim([210, 316])
+        axis.set_xlim([210, 316])
 
     if inset_arg == 1 and melt_arg ==0:
         # inset axes....
@@ -360,7 +360,7 @@ def label_two():
             wt_str = 26.9
         plt.scatter(240, 4, marker=marker_ls[i], c=colour_ls[i], linewidths=0, alpha=0, label=f'{wt_str} wt%')
     plt.plot(250, 4, linewidth=1, c=colour_ls[0], label='Quadratic Fit')
-    plt.plot(250, 4, "--", linewidth=.5, color='gray', label='Prediction Limit')
+    plt.plot(250, 4, "--", linewidth=.5, color='gray', label='95% Prediction Limit')
 
     handles, labels = plt.gca().get_legend_handles_labels()
     order = [2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 10]
@@ -376,10 +376,10 @@ layout = 'hori'
 
 if layout == 'vert':
     w = 4
-    fig, ax = plt.subplots(1, 2, sharey=True, sharex=True, figsize=(w, w * 2 / 3))
+    fig, ax = plt.subplots(1, 2, sharey=True, figsize=(w, w * 2 / 3))
 elif layout == 'hori':
     w = 3.3
-    fig, ax = plt.subplots(2, 1, sharey=True, sharex=True, figsize=(w, w * 3 / 3))
+    fig, ax = plt.subplots(2, 1, sharey=True, figsize=(w, w * 3 / 3))
 # fig, ax = plt.subplots(1,2,sharey=True,sharex=True,figsize=(3.20666667, 1.91166667))
 plt.tight_layout()
 
@@ -415,7 +415,7 @@ for i, wt in enumerate(wt_ls):
         wt_str = 26.9
     plt.plot(240, 4, linewidth=1, c=colour_ls[i],alpha=0, label=f'{wt_str} wt%')
 
-plt.plot(250, 4, "--", linewidth=.5, color='gray', label='Prediction Limit')
+plt.plot(250, 4, "--", linewidth=.5, color='gray', label='95% Prediction Limit')
 
 handles, labels = plt.gca().get_legend_handles_labels()
 order = [0,10,3,4,5,6,7,8,9,1,2]
@@ -427,7 +427,19 @@ for lh in leg.legendHandles:
 plt.savefig(fd + 'cp_all.png')
 
 
+##
+w = 2
+fig, ax = plt.subplots(1,1,sharey=True,sharex=True,figsize=(w,w))
+overall_fun(ax,0,0,0,0,0,2,0,0,0,)
 
+plt.plot(220, 3, "--", linewidth=.5, color='gray', label='95% Prediction Limit')
+plt.legend(prop={'size': 5})
+plt.ylabel('Specific Heat (J $g^{-1}$ $K^{-1}$)')
+plt.xlabel('Temperature (K)')
+plt.title('Along Liquidus Specific Heat')
+# label_two()
+# base.show_plot_max()
+plt.savefig('o_supplementaryPlots\GA_alongLiquidus.png')
 
 
 ## debug end line
